@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Loom &amp; Key Studio</title>
+  <meta name="description" content="Get in touch for orders and custom requests.">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+  <main>
+
+    <section class="page-head"><div class="container"><h1>Contact</h1><p>Page subtitle</p></div></section>
+    <section class="section container split top">
+      <div>
+        <h2>Send us a message</h2>
+        <!-- No server needed: this opens WhatsApp with your message pre-filled -->
+        <form id="contact-form" class="form">
+          <label>Name<input name="name" required></label>
+          <label>Phone<input name="phone" type="tel"></label>
+          <label>What are you looking for?
+            <select name="topic"><option>Bouquet</option><option>Hair Clips</option><option>Keychains</option><option>Gifts</option><option>Custom order</option></select>
+          </label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn" type="submit">Send via WhatsApp</button>
+        </form>
+      </div>
+      <div class="card info">
+        <h3>Contact details</h3>
+        <p><b>WhatsApp:</b> <span data-site="whatsappDisplay"></span></p>
+        <p><b>Instagram:</b> <a data-site="instagramLink" target="_blank" rel="noopener"></a></p>
+        <p><b>Email:</b> <a data-site="emailLink"></a></p>
+        <p><b>Shipping:</b> Pan-India</p>
+        <p><b>Hours:</b> Add your hours</p>
+      </div>
+    </section>
+    <section class="section alt">
+      <div class="container narrow">
+        <div class="section-head"><h2>FAQs</h2></div>
+        <details><summary>Question one?</summary><p>Answer.</p></details>
+        <details><summary>Question two?</summary><p>Answer.</p></details>
+        <details><summary>Question three?</summary><p>Answer.</p></details>
+        <details><summary>Question four?</summary><p>Answer.</p></details>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
